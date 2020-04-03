@@ -43,7 +43,7 @@ class Hangman()
 }
 */
 
-function Hangman() { // Bruh Clayton's flow is sick (COVID-95)  LOL Lol probably Clayton's Cuz this way of doing it is circa 1995 ahahahahahahahah 95 lol his hair style is form the 80's bro. you see that flow
+function Hangman() { // 
     //Properties
     this.previousGuesses = [];
     this.chances = maxChances;
@@ -66,11 +66,8 @@ function Hangman() { // Bruh Clayton's flow is sick (COVID-95)  LOL Lol probably
         _this.setup();
 
     };
-    // Seriously tho, this guessLetter function is brutal
-    // this was aarons brain child - you never EVER wanna do fkin for (if (if () if() else())) :*(
-      // This is going to be a bitch to do in TS...if it works, we dont have to rewrite it.
-      // But it's fkin bad. we only really have to do this for every variable and function
-    this.guessLetter = function ( event ) : void  {   //<-- fuck. lol
+
+    this.guessLetter = function ( event ) : void  {   
         event.preventDefault();
         //Check if the guessed letter is in the word
         if ( _this.word.includes(gameController.input.value )) {
