@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "ES2017",
+    "sourceMap": true,
+    "lib": ["ES2020", "DOM", "ES7"]
+  },
+  "files": ["main.ts"]
+}
