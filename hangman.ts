@@ -11,7 +11,7 @@
  *********************************/
 
 //first consts
-// thats better -step. Groovy.
+
 const maxChances  : number = 6;
 const gameController: any = { //  no, we're defining it here 
     form: document.querySelector('form'),
@@ -20,6 +20,7 @@ const gameController: any = { //  no, we're defining it here
     chances: document.querySelector('.chances'),
     previousGuesses: document.querySelector('.previous-guesses')
 }
+
 //second lets
 let _this: any;
 //third vars (but we don't like vars and avoid them if we can)
